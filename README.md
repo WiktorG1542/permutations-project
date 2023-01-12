@@ -4,6 +4,7 @@ My first bigger project.
 Done as an extra university project, and as a way for myself to prove that I can quickly learn totally new tools (Cmake, LaTeX, bash scripting, gnuplot).
 This is meant to be the project's structure:
 
+```
 permutations-project/
 │
 ├── source
@@ -27,4 +28,4 @@ permutations-project/
 │
 │   ├── makegraph.sh
 │   └── results.tex
-
+```
