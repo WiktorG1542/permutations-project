@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage{graphicx} % for including images
+
+\usepackage{nopageno}
+\begin{document}
+
+%\title{Permutations}
+%\author{\small Wiktor Grzywacz}
+%\date{\small \today}
+%\maketitle
+\begin{center}
+    \Large \textbf{Permutations - Wiktor Grzywacz}
+\end{center}
+
+\section{Explanation}
+\par
+The data shown on the graph is obtained by running the \textbf{run.sh} script located in the \textbf{input and output} directory.
+For each pair of arguments you run the \textbf{makegraph} script with, one line with nine points is produced.
+\par
+Each one of the 9 points for any line on the graph, say 10 permutations of a set of 20, represents the time it took the \textbf{run.sh} script to execute 9 times,
+each time for \textbf{x} pairs of 10 and 20 in the \textbf{input.txt} file, where \textbf{x} represents the number of the point.
+\par
+For example, if my generated graph has only a single line corresponding to 15 permutations of a set of 50 according to the legend, then
+the first point of that line represents the time it took \textbf{run.sh} to run with 1, 15, 60 as its input, the second point 2, 15, 60, 15, 60 etc.
+
+\section{Graph}
+
+Here is a graph generated in gnuplot corresponding to the arguments given to the \textbf{makegraph} script:
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\linewidth]{gnuplot_output.png}
+\end{figure}
+
+\end{document}
